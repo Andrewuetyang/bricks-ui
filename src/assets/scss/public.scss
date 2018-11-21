@@ -1,21 +1,4 @@
-/*适用于宽：375px设计稿，1px = 0.01rem*/
-@media screen and (max-width: 320px) {html{font-size:85.33px;}}
-@media screen and (min-width: 320px) {html{font-size:85.33px;}}
-@media screen and (min-width: 360px) {html{font-size:96px;}}
-@media screen and (min-width: 375px) {html{font-size:100px;}}
-@media screen and (min-width: 400px) {html{font-size:106.67px;}}
-@media screen and (min-width: 414px) {html{font-size:110.4px;}}
-@media screen and (min-width: 440px) {html{font-size:117.33px;}}
-@media screen and (min-width: 480px) {html{font-size:128px;}}
-@media screen and (min-width: 520px) {html{font-size:138.67px;}}
-@media screen and (min-width: 560px) {html{font-size:149.33px;}}
-@media screen and (min-width: 600px) {html{font-size:160px;}}
-@media screen and (min-width: 640px) {html{font-size:170.67px;}}
-@media screen and (min-width: 680px) {html{font-size:181.33px;}}
-@media screen and (min-width: 720px) {html{font-size:192px;}}
-@media screen and (min-width: 760px) {html{font-size:202.67px;}}
-@media screen and (min-width: 800px) {html{font-size:213.33px;}}
-@media screen and (min-width: 960px) {html{font-size:256px;}}
+@import './var.scss';
 
 /*常用样式*/
 .dp-b {display: block;}
@@ -115,13 +98,19 @@
 .va-b {vertical-align: bottom !important;}
 
 //文字颜色
-.c-2 {color: #212121 !important;}
-.c-7 {color: #757575 !important;}
-.c-9 {color: #9E9E9E !important;}
-.c-a {color: #ABABAB !important;}
-.c-b {color: #BBB !important;}
-.c-f {color: #FFF !important;}
-.c-orange {color: #F16622 !important;}
+/* 文字颜色 */
+.c-2 {color: $color-2 !important;} /*rgba(0,0,0,.87)*/
+.c-6 {color: $color-6 !important;}
+.c-7 {color: $color-7 !important;}/*rgba(0,0,0,.54)*/
+.c-9 {color: $color-9 !important;}/*rgba(0,0,0,.38)*/
+.c-a {color: $color-a !important;}
+.c-b {color: $color-b !important;}
+.c-c {color: $color-c !important;}
+.c-f {color: $color-f !important;}
+.c-orange {color: $color-orange !important;}
+.c-blue {color: $color-blue !important;}
+.c-green{color: $color-green !important;}
+.c-yellow{color: $color-green !important;}
 
 //flex布局
 .fx {

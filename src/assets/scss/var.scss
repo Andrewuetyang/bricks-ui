@@ -1,0 +1,29 @@
+/* colors */
+$color-white: #fff !default;
+$color-black: #000 !default;
+$color-orange: #F16622 !default;
+$color-blue: #2FA0ED !default;
+$color-green: #88C267 !default;
+$color-yellow: #FEA000 !default;
+$color-transparent: 'transparent' !default;
+$color-2: #212121 !default; /*rgba(0,0,0,.87)*/
+$color-6: #616161 !default;
+$color-7: #757575 !default; /*rgba(0,0,0,.54)*/
+$color-9: #9E9E9E !default; /*rgba(0,0,0,.38)*/
+$color-a: #ABABAB !default;
+$color-b: #BBB !default;
+$color-c: #ccc !default;
+$color-f: #f3f4f5 !default;
+
+// 文字颜色
+$text-color-primary: $color-2 !default; 
+$text-color-regular: $color-7 !default;
+$text-color-grey: $color-9 !default; 
+// link颜色
+$link-color: $color-7 !default;
+// $link-hover-color: ;
+// 背景颜色
+$bg-color-primary: $color-f !default;
+
+// input placeholder
+$input-placeholder-color: $color-9 !default;

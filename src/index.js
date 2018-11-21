@@ -38,8 +38,11 @@ if (typeof window !== 'undefined' && window.Vue) {
 };
 
 export {
+  // 组件
   Button,
+  // 指令
   InfiniteScroll,
+  // 全局方法
   showLoading,
   hideLoading,
   toast,
